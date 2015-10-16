@@ -1,100 +1,141 @@
 <!DOCTYPE html>
 
 <html>
-    {% include 'hackathon/base.html' %}
+{% include 'hackathon/base.html' %}
 
-    <body>
-    	<div class="container">
-    	<h1>
-    		<strong>Q1 / 2016</strong> - Chantilly - <em>Chantilly, Virginia</em>
-    		<button class="btn btn-primary" style="float: right; right: 0px;">Export Data Center Report</button> <!-- <i class="fa fa-file-excel-o"></i>   -->
-    	</h1>
+<body>
+	<div class="container">
+		<h1>
+			<strong>Q1 / 2016</strong> - FDCCI-DC-45758
+			<button class="btn btn-primary" style="float: right; right: 0px;">Export Data Center Report</button> <!-- <i class="fa fa-file-excel-o"></i>   -->
+		</h1>
 
-    	<h2>
+		<h2>
 		  <strong>FDCCI-DC-45758</strong><br>
 		  14426 Albemarle Point Place Suite 120<br>
 		  Chantilly, VA<br><br>
 		</h2>
 
-    	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-		  <div class="panel panel-default">
-		    <div class="yellow-bar panel-heading" role="tab" id="headingOne-components">
-		      <h4 class="panel-title">
-		        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-		          PBS
-		          
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="collapseOne" class="green-bar panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne-components">
-		      <div class="panel-body">
-		        <div class="panel-body">
-		        	
-		        	
-		        	<h2 class="component-title">Q3 vs. Q2</h2>
-		        	
-		        	<div class="component-spreadsheet-current">
-		        		
-		        	</div>
-		        	
-		        	<br>
-		        	
-		        	<h2 class="component-title">Notes</h2>
-		        	
-		        	<div class="component-notes">
-		        		
-		        	</div>
-		        	
-		        	<br><br>
-		        	
-		        	<button class="btn btn-success" style="margin-left: 10px;">Validate</button>
-		        	
-		        	<div class="pull-right">
-		        		<button class="btn btn-primary" style="margin-right: 5px;">Save</button>
-		        		<button class="btn btn-primary" style="margin-right: 10px;">Submit</button>
-		        	</div>
-		        	
-		        	<br><br>
-		      </div>
-		    </div>
-		  </div>
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingTwo-components">
-		      <h4 class="panel-title">
-		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-		          FAS
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo-components">
-		      <div class="panel-body">
-		        <ul class="list-group">
-		        	
-		        	
-				</ul>
-		      </div>
-		    </div>
-		  </div>
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingThree-components">
-		      <h4 class="panel-title">
-		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-		          Component 3
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree-components">
-		      <div class="panel-body">
-		        <ul class="list-group">
-		        	
-		        	
-				</ul>
-		      </div>
-		    </div>
-		  </div>
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="panel panel-default">
+				<div class="yellow-bar panel-heading" role="tab" id="headingOne-components">
+					<h4 class="panel-title">
+						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						  CFO <i class="fa fa-caret-down pull-right"></i>
+						  
+						</a>
+					</h4>
+				</div><!-- .panel-heading -->
+				<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne-components">
+					<div class="panel-body">
+						<h2 class="component-title">Q3 vs. Q2</h2>
+
+						<div class="component-spreadsheet-current">
+
+							<img src="/static/img/image.png" style="opacity: .7">
+
+						</div>
+
+
+
+						<h2 class="component-title">Notes</h2>
+
+						<textarea class="component-notes" placeholder="Add your note here"></textarea>
+
+						<br><Br>
+
+						<button class="btn btn-success" style="margin-left: 20px;">Validate</button>
+
+						<div class="pull-right">
+							<button class="btn btn-primary" style="margin-right: 5px;">Save</button>
+							<button class="btn btn-primary" style="margin-right: 20px;">Submit</button>
+						</div>
+
+						<br>
+						<br>
+					</div><!--panel-body -->
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingTwo-components">
+					<h4 class="panel-title">
+				<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				  FAS <i class="fa fa-caret-right pull-right"></i>
+				</a>
+			  </h4>
+				</div>
+				<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo-components">
+					<div class="panel-body">
+						<h2 class="component-title">Q3 vs. Q2</h2>
+
+						<div class="component-spreadsheet-current">
+
+							<img src="/static/img/image.png" style="opacity: .7>
+
+						</div>
+
+
+
+						<h2 class="component-title">Notes</h2>
+
+						<textarea class="component-notes" placeholder="Add your note here"></textarea>
+
+						<br><br>
+
+						<button class="btn btn-success" style="margin-left: 20px;">Validate</button>
+
+						<div class="pull-right">
+							<button class="btn btn-primary" style="margin-right: 5px;">Save</button>
+							<button class="btn btn-primary" style="margin-right: 20px;">Submit</button>
+						</div>
+
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingThree-components">
+					<h4 class="panel-title">
+				<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				  PBS <i class="fa fa-caret-right pull-right"></i>
+				</a>
+			  </h4>
+				</div>
+				<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree-components">
+					<div class="panel-body">
+						<h2 class="component-title">Q3 vs. Q2</h2>
+
+						<div class="component-spreadsheet-current">
+
+							<img src="/static/img/image.png"style="opacity: .7>
+
+						</div>
+
+
+
+						<h2 class="component-title">Notes</h2>
+
+						<textarea class="component-notes" placeholder="Add your note here"></textarea>
+
+						<br><br>
+
+						<button class="btn btn-success" style="margin-left: 20px;">Validate</button>
+
+						<div class="pull-right">
+							<button class="btn btn-primary" style="margin-right: 5px;">Save</button>
+							<button class="btn btn-primary" style="margin-right: 20px;">Submit</button>
+						</div>
+
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
 		</div>
 
 
-    	</div>
-    </body>
+	</div>
+</body>
+
 </html>

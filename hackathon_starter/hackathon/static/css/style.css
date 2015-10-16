@@ -197,12 +197,14 @@ h2 {
 .component-spreadsheet-current {
   position: relative;
   width: 90%;
-  height: 100px;
+  height: auto;
   border: 1px #d1d2d4 solid;
   background-color: white;
   float: center;
   left: 50%;
   margin-left: -45%;
+  overflow-y: none;
+  overflow-x: scroll;
 }
 
 .component-notes {
