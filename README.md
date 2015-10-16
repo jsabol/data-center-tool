@@ -87,6 +87,8 @@ To get up and running, simply do the following:
     $ python hackathon_starter/manage.py makemigrations
     $ python hackathon_starter/manage.py migrate
 
+    # Create Django superuser
+    $ python hackathon_starter/manage.py createsuperuser
 
 **NOTE**: We highly recommend creating a [Virtual Environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/). Python Virtual Environments allow developers to work in isolated sandboxes and to create separation between python packages installed via [pip](https://pypi.python.org/pypi/pip).
 
