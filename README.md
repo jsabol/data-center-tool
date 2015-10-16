@@ -13,14 +13,6 @@ If you've attented hackathons, you already know how much time can be wasted figu
 
 Even if you are not using this for a hackathon, Django Hackathon Starter is sure to save any developer hours or even days of development time and can serve as a learning guide for web developers.
 
-<h4 align="center">Basic Authentication / OAuth Signin </h4>
-
-![Login](http://i.imgur.com/sEIHsIS.png)
-
-<h4 align="center">API Examples </h4>
-
-![API Examples](http://i.imgur.com/zFqKcVa.png)
-
 Table of Contents
 -----------------
 
