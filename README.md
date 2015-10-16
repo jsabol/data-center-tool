@@ -65,6 +65,8 @@ Run
 
 <hr>
 
+This project used [Django Hackathon Starter](https://github.com/DrkSephy/django-hackathon-starter) as a skeleton framework.
+
 
 Project Structure
 -----------------
