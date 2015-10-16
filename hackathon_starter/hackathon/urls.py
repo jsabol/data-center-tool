@@ -9,6 +9,8 @@ router.register(r'snippets', views.SnippetView)
 urlpatterns = patterns('',
     url(r'^$', views.index, name='index'),
     url(r'^', include(router.urls)),
+    url(r'^edit-quarter/$', views.edit_quarter, name='edit-quarter'),
+    url(r'^edit-datacenter/$', views.edit_datacenter, name='edit-datacenter'),
     url(r'^register/$', views.register, name='register'),
     url(r'^login/$', views.user_login, name='login'),
     url(r'^logout/$', views.user_logout, name='logout'),

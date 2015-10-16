@@ -312,6 +312,18 @@ def index(request):
 
 
 ##################
+#  Data Center   #
+##################
+
+def edit_quarter(request):
+    context = {'title': 'Edit Quarter'}
+    return render(request, 'hackathon/edit_quarter.html', context)
+
+def edit_datacenter(request):
+    context = {'title': 'Edit Data Center'}
+    return render(request, 'hackathon/edit_datacenter.html', context)
+
+##################
 #  API Examples  #
 ##################
 
