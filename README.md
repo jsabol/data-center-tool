@@ -13,9 +13,6 @@ Agile User Stories
 
 [![Done](https://badge.waffle.io/jsabol/data-center-tool.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/jsabol/data-center-tool)
 
-[![Done](https://badge.waffle.io/jsabol/data-center-tool.svg?label=done&title=Done)](http://waffle.io/jsabol/data-center-tool)
-
-
 
 Table of Contents
 -----------------
