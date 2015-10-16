@@ -5,7 +5,7 @@
 
     <body>
     <div class="container">
-    	{% if user.is_authenticated and user.is_admin %}
+    	{% if user.is_authenticated and user == 'vern' %}
         	{% include 'hackathon/dashboards/admin_dashboard.html' %}
         {% elif user.is_authenticated %}
         	{% include 'hackathon/dashboards/agency_dashboard.html' %}
