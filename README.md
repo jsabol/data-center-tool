@@ -1,17 +1,22 @@
-[![Stories in Ready](https://badge.waffle.io/jsabol/data-center-tool.svg?label=ready&title=Ready)](http://waffle.io/jsabol/data-center-tool)
-
-[![Done](https://badge.waffle.io/jsabol/data-center-tool.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/jsabol/data-center-tool)
-
-[![Done](https://badge.waffle.io/jsabol/data-center-tool.svg?label=done&title=Done)](http://waffle.io/jsabol/data-center-tool)
-
-Django Hackathon Starter
+[Data Center Application](http://data-center-tool-jsabol.c9.io/hackathon/)
 ------------------------
+
+[View live site](http://data-center-tool-jsabol.c9.io/hackathon/)
 
 A boilerplate application for Django web applications.
 
 If you've attented hackathons, you already know how much time can be wasted figuring out what language to pick, which web framework to choose, which APIs to incorporate, and figuring out OAuth authentication. Django Hackathon Starter aims to provide these features out of the box, allowing the team to save hours of time getting these pieces together.
 
 Even if you are not using this for a hackathon, Django Hackathon Starter is sure to save any developer hours or even days of development time and can serve as a learning guide for web developers.
+
+Agile User Stories
+-------------------
+
+[![Stories in Ready](https://badge.waffle.io/jsabol/data-center-tool.svg?label=ready&title=Ready)](http://waffle.io/jsabol/data-center-tool)
+
+[![Done](https://badge.waffle.io/jsabol/data-center-tool.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/jsabol/data-center-tool)
+
+[![Done](https://badge.waffle.io/jsabol/data-center-tool.svg?label=done&title=Done)](http://waffle.io/jsabol/data-center-tool)
 
 Table of Contents
 -----------------
