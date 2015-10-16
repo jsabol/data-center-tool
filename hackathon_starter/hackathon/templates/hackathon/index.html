@@ -5,10 +5,8 @@
 
     <body>
     <div class="container">
-    	{% if user.is_authenticated and user == 'vern' %}
-        	{% include 'hackathon/dashboards/admin_dashboard.html' %}
-        {% elif user.is_authenticated %}
-        	{% include 'hackathon/dashboards/agency_dashboard.html' %}
+    	{% if user.is_authenticated %}
+        	{% include 'hackathon/datacenterapp/admin_dashboard.html' %}
         {% else %}
         	<h1> Please <a href="/hackathon/register">register</a> or <a href="/hackathon/login">login</a> </h1>
         {% endif %}

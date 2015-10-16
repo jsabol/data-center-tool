@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    {% include 'hackathon/base.html' %}
+
+    <body>
+    	<div class="container">
+    	<h1>Q1 / 2016
+    	  <button class="btn btn-primary" style="float: right; right: 0px;">Export Full Report</button>
+    	</h1>
+
+    	<h2>Regions</h2>
+  
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne-regions">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Eastern Region <i class="fa fa-caret-left pull-right"></i>
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne-regions">
+            <div class="panel-body">
+              <div class="panel-body">
+      	        <ul class="list-group">
+          			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=1">FDCCI-DC-45736 - <em>Sterling, VA</em> <span class="pull-right">3R-VA0080ZZ</span></a></li>
+          			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=2">FDCCI-DC-45650 - <em>Herndon, VA</em> <span class="pull-right">3R-VA0279ZZ</span></a></li>
+          			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=2">FDCCI-DC-45739 - <em>Washington, DC</em> <span class="pull-right">13R-DC0021A</span></a></li>
+          			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=4">FDCCI-DC-45753 - <em>Chantilly, VA</em> <span class="pull-right">11R-VA0909</span></a></li>
+          			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=5">FDCCI-DC-45738 - <em>Fairfax, VA</em> <span class="pull-right">14 WW-VA0808</span></li>
+          			</ul>
+      	      </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo-regions">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Southern Region<i class="fa fa-caret-down pull-right"></i>
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo-regions">
+            <div class="panel-body">
+              <ul class="list-group">
+          		  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=1">FDCCI-DC-45753 - <em>CGI Phoenix, AZ</em> <span class="pull-right">9R-AZ0777ZZ</span></a></li>
+        			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=2">4R-GA0087 - <em>Atlanta, GA</em></a></li>
+        			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=2">6R-MO0544 - <em>Kansas City, MO</em></a></li>
+        			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=4">9R-CA0154 - <em>Fort Worth, TX</em></a></li>
+        			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=5">9R-AZ0058ZZ - <em>Tucson, AZ</em></a></li>
+          		</ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree-regions">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Western Region<i class="fa fa-caret-down pull-right"></i>
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree-regions">
+            <div class="panel-body">
+              <ul class="list-group">
+          		  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=1">FDCCI-DC-45736 - <em>Sterling, VA</em> <span class="pull-right">7R-TX0224ZZ</span></a></li>
+        			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=2">FDCCI-DC-45736 - <em>Sterling, VA</em> <span class="pull-right">7R-TX0224ZZ</span></a></li>
+        			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=2">FDCCI-DC-45736 - <em>Sterling, VA</em> <span class="pull-right">7R-TX0224ZZ</span></a></li>
+        			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=4">FDCCI-DC-45736 - <em>Sterling, VA</em> <span class="pull-right">7R-TX0224ZZ</span></a></li>
+        			  <li class="list-group-item"><a href="/hackathon/datacenter/view?datacenter=5">FDCCI-DC-45736 - <em>Sterling, VA</em> <span class="pull-right">7R-TX0224ZZ</span></a></li>
+      		    </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
+

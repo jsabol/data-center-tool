@@ -317,11 +317,19 @@ def index(request):
 
 def edit_quarter(request):
     context = {'title': 'Edit Quarter'}
-    return render(request, 'hackathon/edit_quarter.html', context)
+    return render(request, 'hackathon/datacenterapp/edit_quarter.html', context)
 
 def edit_datacenter(request):
     context = {'title': 'Edit Data Center'}
-    return render(request, 'hackathon/edit_datacenter.html', context)
+    return render(request, 'hackathon/datacenterapp/edit_datacenter.html', context)
+
+def view_datacenter(request):
+    context = {'title': 'View Data Center'}
+    return render(request, 'hackathon/datacenterapp/view_datacenter.html', context)
+    
+def view_quarter(request):
+    context = {'title': 'View Quarter'}
+    return render(request, 'hackathon/datacenterapp/view_quarter.html', context)
 
 ##################
 #  API Examples  #
