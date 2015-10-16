@@ -92,7 +92,7 @@ To get up and running, simply do the following:
 
 Run
 -------
-python hackathon_starter/manage.py runserver
+    python hackathon_starter/manage.py runserver
 
 <hr>
 
