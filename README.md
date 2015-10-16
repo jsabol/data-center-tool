@@ -2,8 +2,8 @@
 ------------------------
 
 - [iRise user dashboard demo](https://try.dc.irise.com:443/iRise/ds/play/49eb4d8639d543d9a54cc67b67f7475f)
-
 - [View live site](http://data-center-tool-jsabol.c9.io/hackathon/)
+- [Presentation](Data Center Cost Analysis.pptx)
 
 
 Agile User Stories
