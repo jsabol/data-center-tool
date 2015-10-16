@@ -1,13 +1,10 @@
 [Data Center Application](http://data-center-tool-jsabol.c9.io/hackathon/)
 ------------------------
 
-[View live site](http://data-center-tool-jsabol.c9.io/hackathon/)
+- [iRise user dashboard demo](https://try.dc.irise.com:443/iRise/ds/play/49eb4d8639d543d9a54cc67b67f7475f)
 
-A boilerplate application for Django web applications.
+- [View live site](http://data-center-tool-jsabol.c9.io/hackathon/)
 
-If you've attented hackathons, you already know how much time can be wasted figuring out what language to pick, which web framework to choose, which APIs to incorporate, and figuring out OAuth authentication. Django Hackathon Starter aims to provide these features out of the box, allowing the team to save hours of time getting these pieces together.
-
-Even if you are not using this for a hackathon, Django Hackathon Starter is sure to save any developer hours or even days of development time and can serve as a learning guide for web developers.
 
 Agile User Stories
 -------------------
@@ -18,51 +15,16 @@ Agile User Stories
 
 [![Done](https://badge.waffle.io/jsabol/data-center-tool.svg?label=done&title=Done)](http://waffle.io/jsabol/data-center-tool)
 
+
+
 Table of Contents
 -----------------
 
-- [Features](#features)
 - [Pre-requisites](#pre-requisites)
 - [Getting Started](#getting-started)
-- [Obtaining API Keys](#getting-api-keys)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
 - [License](#license)
 
-Features
---------
-* User Registration
-* Sphinx Documentation
-* Django Nosetests
-* Integration with Django Rest Framework
-* Basic Authentication with username and password
-* **OAuth 2.0 Authentication**
-    * Github
-    * LinkedIn
-    * Instagram
-    * Facebook
-    * Google+
-    * Dropbox
-    * Foursquare
-* **OAuth 1.0a Authentication** 
-    * Twitter
-    * Tumblr
-* **API Examples**
-    * Yelp API
-    * Github API
-    * Instagram API
-    * Tumblr API
-    * Twitter API
-    * Twilio API
-    * Meetup API
-    * Steam API
-    * Quandl Stock API
-    * New York Times API
-    * LinkedIn API
-    * Facebook API
-    * Google+ API
-    * Dropbox API
-    * Foursquare API
 
 <hr>
 
@@ -139,34 +101,3 @@ Project Structure
 | **hackathon/scripts/**yelp.py                       | Script for interacting with Yelp API |
 | **hackathon/templates/**hackathon/                  | Templates for API examples |
 | **hackathon/templates/**hackathon/base.html         | Base template, contains navbar |
-
-Contributing
-------------
-
-We welcome contributions of all kinds. If you would like to know what work is needed to be done, check the [issue tracker](https://github.com/DrkSephy/django-hackathon-starter/issues). Before sending a pull request, please open an issue. This project follows the [pep-0008](https://www.python.org/dev/peps/pep-0008/) style guide.
-
-
-LICENSE
--------
-
-The MIT License (MIT)
-
-Copyright (c) 2015 David Leonard
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.

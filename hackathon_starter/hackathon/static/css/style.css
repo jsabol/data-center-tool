@@ -42,6 +42,21 @@ div.well{
   font-size: 18px;
 }
 
+@media screen and (max-width: 600px){
+  .panel-body, .list-group-item{
+    font-size: 16px !important;
+  }
+  .view-quarter .list-group-item .pull-right{
+    display:none;
+  }
+}
+
+.list-group-item{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .panel-body .list-group{
   padding:0;
   margin-bottom:0;
@@ -56,7 +71,6 @@ div.well{
   display: block;
   width: 100%;
 }
-
 
 #headingOne-regions {
   background-color: #4c74b9;
@@ -74,6 +88,14 @@ div.well{
 }
 
 #headingThree-regions {
+  background-color: #4c74b9;
+  background-image: none;
+  height: 50px;
+  color: white;
+  border-radius: none;
+}
+
+#headingFour-regions {
   background-color: #4c74b9;
   background-image: none;
   height: 50px;
@@ -105,7 +127,7 @@ div.well{
   height: 50px;
   color: #6d6e70;
   border-radius: 0px;
-  border-left: 10px #c solid;  
+  border-left: 10px #009344 solid;
 }
 
 .list-group-item {
@@ -125,6 +147,11 @@ h1 {
   margin-bottom: 30px;
 }
 
+h2 {
+  color: #444444;
+  font-size: 18px;
+  font-weight: 300;
+}
 .btn-primary {
   background-color: #1f386c;
   background-image: none;
@@ -142,39 +169,63 @@ h1 {
 }
 
 .yellow-bar {
-  position: absolute;
-  height: 50px;
-  width: 10px;
-  background-color: #f7931d;
+  background-color: white;
+  background-image: none;
+  color: #6d6e70;
+  border-radius: 0px;
+  border-left: 10px #f7931d solid;
 }
 
 .green-bar {
-  position: absolute;
+  background-color: white;
+  background-image: none;
   height: 50px;
-  width: 10px;
-  background-color: #009344;
+  color: #6d6e70;
+  border-radius: 0px;
+  border-left: 10px #009344 solid;
+}
+
+.red-bar{
+   background-color: white;
+  background-image: none;
+  height: 50px;
+  color: #6d6e70;
+  border-radius: 0px;
+  border-left: 10px #c solid;  
 }
 
 .component-spreadsheet-current {
-  position: absolute;
+  position: relative;
   width: 90%;
   height: 100px;
   border: 1px #d1d2d4 solid;
   background-color: white;
-}
-
-.component-spreadsheet-past {
-  position: absolute;
-  width: 90%;
-  height: 100px;
-  background-color: #f1f1f2;
-  border: 1px #d1d2d4 solid;
+  float: center;
+  left: 50%;
+  margin-left: -45%;
 }
 
 .component-notes {
-  position: absolute;
+  position: relative;
   width: 90%;
   height: 100px;
   background-color: white;
   border: 1px #d1d2d4 solid;
+  float: center;
+  left: 50%;
+  margin-left: -45%;
+}
+
+.component-title {
+  left: 50%;
+  margin-left: -45%;
+  position: relative;
+}
+
+footer{
+  background-color: white;
+  position:absolute;
+  bottom:0;
+  padding: 2em 0;
+  width:100%;
 }
