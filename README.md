@@ -5,6 +5,7 @@
 - [View live site](http://data-center-tool-jsabol.c9.io/hackathon/)
 - [Presentation](Data Center Cost Analysis.pptx)
 
+Team members: Juliette Sabol, Sara Neel, Nicholas Crismali, Stephanie Gonthier, Maggie Overstreet, Evan Sacks, Jen Raderstrong, Matt Reed
 
 Agile User Stories
 -------------------
